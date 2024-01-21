@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterLink, RouterOutlet } from '@angular/router';
+import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { AddBoxComponent } from './add-box/add-box.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet,RouterLink,AddBoxComponent,],
+  imports: [CommonModule, RouterOutlet,RouterLink,AddBoxComponent,RouterLinkActive],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

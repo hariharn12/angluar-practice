@@ -1,9 +1,10 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-add-box',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './add-box.component.html',
   styleUrl: './add-box.component.css'
 })

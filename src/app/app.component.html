@@ -1,9 +1,12 @@
 <h1>angluar-tasks </h1>
 <!-- <button>add button</button>
 <app-add-box></app-add-box> -->
-<div class="main">
-    <a routerLink="/client-list">client-list</a>
-    <a routerLink="/add-client">add-client</a>
-</div>
+<nav>
+  <ul>
+    <li><a routerLink="/client-list" routerLinkActive="active">Client-list</a></li>
+    <li> <a routerLink="/add-client" routerLinkActive="active">Add-client</a></li>
+  </ul>
+</nav>
+
 
 <router-outlet></router-outlet>
