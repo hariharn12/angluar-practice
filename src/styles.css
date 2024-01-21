@@ -2,3 +2,7 @@
     color: #fff;
     background-color: blue;
 }
+.child-active{
+    background-color: chocolate;
+    color: #fff;
+}
