@@ -1,15 +1,21 @@
 <h1>angluar-tasks </h1>
 
-<nav>
+<!-- <nav>
   <ul>
     <li><a routerLink="/client-list" routerLinkActive="active">Client-list</a></li>
     <li> <a routerLink="/add-client" routerLinkActive="active">Add-client</a></li>
   </ul>
 </nav>
-
-
-<router-outlet></router-outlet>
+<router-outlet></router-outlet> -->
 <hr>
 <h3>creating multiple box</h3>
+
 <button (click)="addbox()">add button</button>
-<app-add-box *ngFor="let b of boxes"></app-add-box>
+<button (click)="removebutton()">remove button</button>
+<app-add-box *ngFor="let c of boxes"></app-add-box>
+
+
+
+<!-- <app-add-box [color]="c" *ngFor="let c of boxes"></app-add-box> -->
+<!-- <app-add-box color="blue">
+</app-add-box> -->

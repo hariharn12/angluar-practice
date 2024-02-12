@@ -12,8 +12,15 @@ import { AddBoxComponent } from './add-box/add-box.component';
 })
 export class AppComponent {
   title = 'angluar-practice';
-  boxes: number[] = []
+  // boxes: any[] = ['red','yellow','b']
+  boxes:any[]=[0,1,2,3,4]
   addbox() {
     this.boxes.push(1)
+  }
+  removebutton() {
+    this.boxes.splice(0,4)
+    this.boxes.pop()
+   
+    
   }
 }
